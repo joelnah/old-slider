@@ -18,7 +18,7 @@ implementation ("com.github.joelnah:old-slider:Tag")
 
 ## Usage
 
-![screenshot1][1]
+![screenshot][1]
 ```kotlin
 OldSlider(
     value = value1,
@@ -27,9 +27,7 @@ OldSlider(
         value1 = it
     },
 )
-```
-![screenshot2][2]
-```kotlin
+
 OldSlider(
     value = value2,
     valueRange= 100f..900f,
@@ -39,5 +37,4 @@ OldSlider(
     },
 )
 ```
-[1]: https://raw.githubusercontent.com/joelnah/old-slider/master/screenshot1.png
-[2]: https://raw.githubusercontent.com/joelnah/old-slider/master/screenshot2.png
+[1]: https://raw.githubusercontent.com/joelnah/old-slider/master/screenshot.png
